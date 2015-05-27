@@ -18,6 +18,7 @@
 		832B49201B15FB1200367D15 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832B49171B15F6BB00367D15 /* ResearchKit.framework */; };
 		832B49211B15FB1200367D15 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 832B49171B15F6BB00367D15 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		832B49261B15FC1400367D15 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B49251B15FC1400367D15 /* SurveyTask.swift */; };
+		832B49361B16012600367D15 /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B49351B16012600367D15 /* MicrophoneTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		832B491B1B15F6E500367D15 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		832B491D1B15F76F00367D15 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		832B49251B15FC1400367D15 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		832B49351B16012600367D15 /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				832B48F01B15F62500367D15 /* AppDelegate.swift */,
+				832B49341B1600D400367D15 /* Tasks */,
 				832B48F21B15F62500367D15 /* ViewController.swift */,
 				832B491B1B15F6E500367D15 /* ConsentDocument.swift */,
-				832B491D1B15F76F00367D15 /* ConsentTask.swift */,
-				832B49251B15FC1400367D15 /* SurveyTask.swift */,
 				832B491F1B15F89900367D15 /* UI */,
 				832B48F71B15F62500367D15 /* Images.xcassets */,
 				832B48EE1B15F62500367D15 /* Supporting Files */,
@@ -184,6 +185,16 @@
 			children = (
 			);
 			path = color_circles;
+			sourceTree = "<group>";
+		};
+		832B49341B1600D400367D15 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				832B491D1B15F76F00367D15 /* ConsentTask.swift */,
+				832B49251B15FC1400367D15 /* SurveyTask.swift */,
+				832B49351B16012600367D15 /* MicrophoneTask.swift */,
+			);
+			name = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 			files = (
 				832B48F31B15F62500367D15 /* ViewController.swift in Sources */,
 				832B491E1B15F76F00367D15 /* ConsentTask.swift in Sources */,
+				832B49361B16012600367D15 /* MicrophoneTask.swift in Sources */,
 				832B49261B15FC1400367D15 /* SurveyTask.swift in Sources */,
 				832B491C1B15F6E500367D15 /* ConsentDocument.swift in Sources */,
 				832B48F11B15F62500367D15 /* AppDelegate.swift in Sources */,
