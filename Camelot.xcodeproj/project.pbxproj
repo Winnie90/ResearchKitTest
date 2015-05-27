@@ -19,6 +19,7 @@
 		832B49211B15FB1200367D15 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 832B49171B15F6BB00367D15 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		832B49261B15FC1400367D15 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B49251B15FC1400367D15 /* SurveyTask.swift */; };
 		832B49361B16012600367D15 /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B49351B16012600367D15 /* MicrophoneTask.swift */; };
+		832B49381B1604D100367D15 /* SpatialMemoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B49371B1604D000367D15 /* SpatialMemoryTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		832B491D1B15F76F00367D15 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		832B49251B15FC1400367D15 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		832B49351B16012600367D15 /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
+		832B49371B1604D000367D15 /* SpatialMemoryTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpatialMemoryTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				832B491D1B15F76F00367D15 /* ConsentTask.swift */,
 				832B49251B15FC1400367D15 /* SurveyTask.swift */,
 				832B49351B16012600367D15 /* MicrophoneTask.swift */,
+				832B49371B1604D000367D15 /* SpatialMemoryTask.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			files = (
 				832B48F31B15F62500367D15 /* ViewController.swift in Sources */,
 				832B491E1B15F76F00367D15 /* ConsentTask.swift in Sources */,
+				832B49381B1604D100367D15 /* SpatialMemoryTask.swift in Sources */,
 				832B49361B16012600367D15 /* MicrophoneTask.swift in Sources */,
 				832B49261B15FC1400367D15 /* SurveyTask.swift in Sources */,
 				832B491C1B15F6E500367D15 /* ConsentDocument.swift in Sources */,
