@@ -17,6 +17,7 @@
 		832B491E1B15F76F00367D15 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B491D1B15F76F00367D15 /* ConsentTask.swift */; };
 		832B49201B15FB1200367D15 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832B49171B15F6BB00367D15 /* ResearchKit.framework */; };
 		832B49211B15FB1200367D15 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 832B49171B15F6BB00367D15 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		832B49261B15FC1400367D15 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B49251B15FC1400367D15 /* SurveyTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		832B49101B15F6BB00367D15 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../../../Downloads/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
 		832B491B1B15F6E500367D15 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		832B491D1B15F76F00367D15 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		832B49251B15FC1400367D15 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				832B48F21B15F62500367D15 /* ViewController.swift */,
 				832B491B1B15F6E500367D15 /* ConsentDocument.swift */,
 				832B491D1B15F76F00367D15 /* ConsentTask.swift */,
+				832B49251B15FC1400367D15 /* SurveyTask.swift */,
 				832B491F1B15F89900367D15 /* UI */,
 				832B48F71B15F62500367D15 /* Images.xcassets */,
 				832B48EE1B15F62500367D15 /* Supporting Files */,
@@ -135,6 +138,7 @@
 		832B48EE1B15F62500367D15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				832B49271B15FED100367D15 /* color_circles */,
 				832B48EF1B15F62500367D15 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -173,6 +177,13 @@
 				832B48F91B15F62500367D15 /* LaunchScreen.xib */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		832B49271B15FED100367D15 /* color_circles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = color_circles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 			files = (
 				832B48F31B15F62500367D15 /* ViewController.swift in Sources */,
 				832B491E1B15F76F00367D15 /* ConsentTask.swift in Sources */,
+				832B49261B15FC1400367D15 /* SurveyTask.swift in Sources */,
 				832B491C1B15F6E500367D15 /* ConsentDocument.swift in Sources */,
 				832B48F11B15F62500367D15 /* AppDelegate.swift in Sources */,
 			);
